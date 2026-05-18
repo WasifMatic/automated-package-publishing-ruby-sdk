@@ -29,6 +29,8 @@ def calculate(operation,
 
 ## Response Type
 
+**200**
+
 `Float`
 
 ## Example Usage
