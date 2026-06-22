@@ -18,7 +18,7 @@ Possible operators are sum, subtract, multiply, divide
 
 ## Example
 
-```
-SUM
+```ruby
+operation_type = OperationTypeEnum::MULTIPLY
 ```
 
