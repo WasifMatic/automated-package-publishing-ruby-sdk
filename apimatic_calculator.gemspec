@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'automated-package-publishing-sdk'
-  s.version = '1.0.30'
+  s.version = '1.0.31'
   s.summary = 'SDK for using'
   s.description = 'Package Publishing'
   s.authors = ['Package Publisher']

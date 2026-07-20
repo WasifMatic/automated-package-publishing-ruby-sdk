@@ -10,16 +10,16 @@ Simple calculator API hosted on APIMATIC
 Install the gem from the command line:
 
 ```bash
-gem install automated-package-publishing-sdk -v 1.0.30
+gem install automated-package-publishing-sdk -v 1.0.31
 ```
 
 Or add the gem to your Gemfile and run `bundle`:
 
 ```ruby
-gem 'automated-package-publishing-sdk', '1.0.30'
+gem 'automated-package-publishing-sdk', '1.0.31'
 ```
 
-For additional gem details, see the [RubyGems page for the automated-package-publishing-sdk gem](https://rubygems.org/gems/automated-package-publishing-sdk/versions/1.0.30).
+For additional gem details, see the [RubyGems page for the automated-package-publishing-sdk gem](https://rubygems.org/gems/automated-package-publishing-sdk/versions/1.0.31).
 
 ## IRB Console Usage
 
@@ -58,7 +58,7 @@ ruby bin/console
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -73,7 +73,7 @@ The following parameters are configurable for the API Client:
 | retry_statuses | `Array` | A list of HTTP statuses to retry. <br> **Default: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524]** |
 | retry_methods | `Array` | A list of HTTP methods to retry. <br> **Default: %i[get put]** |
 | http_callback | `HttpCallBack` | The Http CallBack allows defining callables for pre and post API calls. |
-| proxy_settings | [`ProxySettings`](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/proxy-settings.md) | Optional proxy configuration to route HTTP requests through a proxy server. |
+| proxy_settings | [`ProxySettings`](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/proxy-settings.md) | Optional proxy configuration to route HTTP requests through a proxy server. |
 
 The API client can be initialized as follows:
 
@@ -96,26 +96,26 @@ include ApimaticCalculator
 client = Client.from_env
 ```
 
-See the [`Environment-Based Client Initialization`](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/environment-based-client-initialization.md) section for details.
+See the [`Environment-Based Client Initialization`](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/environment-based-client-initialization.md) section for details.
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/controllers/simple-calculator.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [ProxySettings](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/proxy-settings.md)
-* [Environment-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/environment-based-client-initialization.md)
+* [ProxySettings](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/proxy-settings.md)
+* [Environment-Based Client Initialization](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/environment-based-client-initialization.md)
 
 ### HTTP
 
-* [HttpResponse](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/http-response.md)
-* [HttpRequest](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/http-request.md)
+* [HttpResponse](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/http-response.md)
+* [HttpRequest](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/http-request.md)
 
 ### Utilities
 
-* [ApiHelper](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/api-helper.md)
-* [DateTimeHelper](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.30/doc/date-time-helper.md)
+* [ApiHelper](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/api-helper.md)
+* [DateTimeHelper](https://www.github.com/WasifMatic/automated-package-publishing-ruby-sdk/tree/1.0.31/doc/date-time-helper.md)
 
